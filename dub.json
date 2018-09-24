@@ -1,0 +1,12 @@
+{
+	"name": "web",
+	"authors": [
+		"Giulio Zausa"
+	],
+	"description": "A minimal D application.",
+	"copyright": "Copyright © 2018, Giulio Zausa",
+	"license": "proprietary",
+	"dependencies": {
+		"vibe-d": "~master"
+	}
+}
