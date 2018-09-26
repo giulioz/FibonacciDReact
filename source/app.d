@@ -1,5 +1,6 @@
 import vibe.d;
 import std.conv;
+import std.functional;
 
 int fib(int n)
 {
@@ -9,7 +10,7 @@ int fib(int n)
 	}
 	else
 	{
-		return fib(n - 1) + fib(n - 2);
+		return memoize!fib(n - 1) + memoize!fib(n - 2);
 	}
 }
 
